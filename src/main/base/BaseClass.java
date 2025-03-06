@@ -64,7 +64,6 @@ public WebDriver driver;
 			driver=BrowserFactory.startBrowser(ConfigUtility.getValue("browser")); 
 		}
 		driver.get(ConfigUtility.getValue("url"));
-		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 	}
 	

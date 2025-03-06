@@ -46,5 +46,16 @@ public class UserCreateTest extends BaseClass
 		
 		Assert.assertTrue(driver.getCurrentUrl().contains("login"));
 	}
+	System.out.println("Current URL after ");
+	System.out.println("Current URL after ");
+	System.out.println("Current URL after ");
+	
 
+	@Test
+	public void logOutApplication1()
+	{
+		System.out.println("hello ");
+		System.out.println("Hi ");
+		System.out.println("bye");
+	}
 }

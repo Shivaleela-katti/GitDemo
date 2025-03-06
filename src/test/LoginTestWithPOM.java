@@ -16,4 +16,11 @@ public class LoginTestWithPOM extends BaseClass{
 		
 		Assert.assertTrue(driver.getCurrentUrl().contains("dashboard"),"URL pattern did not match");
 	}
+	@Test
+	public void logOutApplication11()
+	{
+		System.out.println("String ");
+		System.out.println("character ");
+		System.out.println("Boolean");
+	}
 }
