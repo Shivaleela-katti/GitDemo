@@ -65,4 +65,9 @@ public class AdminPage {
 		return wait.until(ExpectedConditions.elementToBeClickable(successMsg)).isDisplayed();
 	}
 
+	@Test
+	public void demo()
+	{
+		System.out.println("hello");
+	}
 }

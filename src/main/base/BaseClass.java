@@ -53,6 +53,9 @@ public WebDriver driver;
 			{
 				System.out.println("URL incorrect - not able to connect to host "+e.getMessage());
 				System.out.println("URL incorrect - not able to connect to host ");
+				
+				System.out.println("URL incorrect - not able to connect to host ");
+				System.out.println("URL incorrect - not able to connect");
 				System.out.println("URL incorrect - not able to connect");
 			}
 			
